@@ -1,0 +1,139 @@
+body {
+    background: rgb(241, 238, 238);
+    margin: 0%;
+  }
+  header {
+    background: rgb(100, 100, 255);
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .example-square {
+    position: relative;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    font-size: large;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: white;
+  }
+  .subtitle {
+    color: rgb(214, 214, 214);
+    font-family: Trebuchet MS;
+    font-size: small;
+  }
+  .card {
+    background: white;
+    margin: 40px 50px 50px 50px;
+    padding: 0 50px 50px 50px;
+  }
+  .result {
+    display: none;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .figure h1 {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .figure p {
+    text-align: center;
+  }
+  .corner-label {
+    position: absolute;
+    font-weight: bold;
+  }
+  .top-left {
+    top: -15px;
+    left: -15px;
+  }
+  .top-right {
+    top: -15px;
+    right: -15px;
+  }
+  .bottom-left {
+    bottom: -15px;
+    left: -15px;
+  }
+  .bottom-right {
+    bottom: -15px;
+    right: -15px;
+  }
+  .formula-description {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .formula-description .rumus {
+    text-align: center;
+    font-weight: bold;
+  }
+  .output {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+  }
+  .box {
+    border: 1px solid gray;
+    text-align: center;
+    align-items: center;
+  }
+  .judul {
+    color: white;
+    background-color: rgb(100, 100, 255);
+    padding: 30px;
+    margin: 0 0 50px 0;
+    text-align: center;
+  }
+  .hitung {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .reset {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 500px;
+    margin-bottom: 40px;
+  }
+  button {
+    border: 0;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 10%;
+  }
+  input {
+    width: 1100px;
+    height: 30px;
+  }
+  footer {
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+  }
+  
+  /* Tampilan responsif pada layar dengan lebar maksimum 600px */
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    .example-square {
+      margin: 0 auto;
+    }
+    .card {
+      margin: 20px;
+    }
+    .reset {
+      left: 0;
+      margin: 0 auto 20px auto;
+    }
+    input {
+      width: 100%;
+    }
+  }
